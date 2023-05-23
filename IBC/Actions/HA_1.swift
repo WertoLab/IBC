@@ -13,7 +13,6 @@ class HA_1: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         set_properties(HA_1_input)
-        // Do any additional setup after loading the view.
     }
     @IBAction func next_tap(_ sender: Any) {
         if let result = HA_1_input.text{
